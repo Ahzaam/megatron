@@ -1,0 +1,51 @@
+ body{
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+ }
+
+.wrapper{
+  width: 92%;
+}
+
+.wrapper .carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.carousel .card{
+  background-color: red;
+  line-height: 250px;
+  text-align: center;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.50);
+}
+
+.carousel .card:nth-child(even){
+  background-color: blue;
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  border: 2px solid #ed7af0!important;
+  border-radius: 12px;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  transition: all 0.3 ease;
+}
+.owl-dot:hover,
+.owl-dot.active{
+  background: #ed7af0!important;
+}

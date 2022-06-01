@@ -1,0 +1,75 @@
+.activenavp{
+  color: pink;
+  border-bottom: 3px solid #50c5ff;
+
+  /* height: 2px;
+  bottom: 0;
+  left: 0;
+} */
+}
+
+.container-fluid{
+  max-width: 2000px;
+  display: block;
+}
+
+img[type="logo"]{
+  width: 70px;
+  cursor: pointer;
+}
+ul.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.51);
+
+}
+li.dropdown-item a{
+    color: blue;
+}
+@font-face {
+  font-family: rounded;
+  src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: rounded-2;
+  src: url(""../fonts/VarelaRound-Regular.ttf"");
+}
+*{
+  font-family: rounded;
+  font-size: 18px;
+}
+.activenav:hover {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.activenav:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #50c5ff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.activenav:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.container, .container-fluid{
+  background-color: transparent;
+}
+
+.logo-txt{
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+.container-fluid a{
+  text-decoration: none;
+}

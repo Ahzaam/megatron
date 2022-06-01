@@ -1,0 +1,82 @@
+.carousel-item .bannercen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-item .centered {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+button[type="button-baby-corner"]{
+  border: none;
+  background-color: #00ffd9;
+  border-radius: 25px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.video-ani{
+    position: relative;
+    height: auto;
+    width: auto;
+    background-color: rgb(154, 23, 48);
+    /* opacity: 0.5; */
+}
+.video-back{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9)
+{
+    .video-back{
+        width: 100%;
+        height: auto;
+    }
+}
+.video-ani .cover-ani .msg{
+
+    text-align: center;
+    top: 310px;
+}
+.cover-ani{
+  background-color: rgba(0, 0, 0, 0.44);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.margin{
+  margin: 10% 0;
+}
+
+.parallax{
+  background: url('bg-images/sldimg1.jpg');
+
+
+  /* background: linear-gradient(180deg, #ff00f5, #ffffff); */
+  /* repeat fixed 100%; */
+  /* background-color: red; */
+
+}
+.parallax-inner{
+  background-color: transparent;
+  min-height: 400px;
+  max-height: 800px;
+}
+/* *{
+  background: transparent;
+} */
