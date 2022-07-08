@@ -1,4 +1,4 @@
-<?php
+ <?php
 session_start();
  ?>
 
@@ -573,7 +573,7 @@ session_start();
 </div>
 <!-- End of Grid -->
 
-<div class="container-fluid" style="background-image:url('bg-images/pattern-dot.png');background-color:#8cfffc;">
+<div class="container-fluid text-dark" style="background-image:url('bg-images/pattern-dot.png');background-color:#00eebc;">
   <div class="container py-5">
     <div class="row">
       <div class="col-lg-3 col-sm-11 col-md-5">

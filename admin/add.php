@@ -6,23 +6,16 @@ if(  $_SESSION['dbpasscode'] == 'unsecure'){
 }
 
 function check(){
-  echo "Checking";
-  echo "<pre>";
-  echo print_r($_POST);
-  echo $_POST['submit'] . "/ mada fuckers " . $_FILES['my_image'];
+
   if(isset($_POST['submit']) && isset($_FILES['my_image'])){
 
-    echo "hello ";
-    echo "<pre>";
-    print_r($_FILES['my_image']);
-    echo "</pre>";
     $img_name = $_FILES['my_image']['name'];
     $img_size = $_FILES['my_image']['size'];
     $tmp_name = $_FILES['my_image']['tmp_name'];
     $error = $_FILES['my_image']['error'];
 
     if($error === 0){
-    
+
         $img_ex = pathinfo($img_name, PATHINFO_EXTENSION);
         $img_ex_lc = strtolower($img_ex);
         $allowed_exs = array("jpg", "jpeg", "png");

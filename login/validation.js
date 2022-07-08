@@ -9,4 +9,4 @@ function validate(){
 function refresh(e) {
   event.preventDefault();
   console.log("Not Refreshed");
-})
+}
